@@ -13,8 +13,13 @@ About PT_Magic
 
 
 cd /tmp
+
 wget https://github.com/Legedric/ptmagic/releases/download/2.0.3/PTMagic.2.0.3.zip
+
 unzip PTMagic*
+
 cp -r /tmp/PTMagic*/PTMagic ~/
+
 cp -r /tmp/PTMagic*/_default\ settings\ PT\ 2.x/_default\ settings\ BTC\ or\ ETH/* ~/PTMagic/
+
 rm -rf /tmp/PTMagic*
